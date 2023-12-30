@@ -7,7 +7,6 @@ import net.minecraft.world.item.Items;
 import org.jetbrains.annotations.NotNull;
 
 public class ModCreativeTab extends CreativeModeTab {
-
 	public ModCreativeTab(int id, String langId) {
 		super(id, langId);
 	}
