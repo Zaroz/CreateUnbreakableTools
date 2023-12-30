@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "create_unbreakable",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Create Unbreakable Tools",
+  "description": "",
   "authors": [
-    "Me!"
+    "anvian"
   ],
   "contact": {
-    "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
+    "sources": "https://github.com/anviaan/CreateUnbreakableTools"
   },
   "license": "GPL-3.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/create_unbreakable/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.modid.ExampleMod"
+      "net.anvian.create_unbreakable.CreateUnbreakableToolsMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "create_unbreakable.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",
