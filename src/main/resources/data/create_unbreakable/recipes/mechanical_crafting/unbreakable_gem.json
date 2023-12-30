@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " EBE ",
+    "EPBPE",
+    "BBSBB",
+    "EPBPE",
+    " EBE "
+  ],
+  "result": {
+    "item": "create_unbreakable:unbreakable_gem"
+  }
+}
