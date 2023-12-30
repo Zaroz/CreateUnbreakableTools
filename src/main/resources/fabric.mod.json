@@ -10,7 +10,7 @@
   "contact": {
     "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
   },
-  "license": "CC0",
+  "license": "GPL-3.0",
   "icon": "assets/modid/icon.png",
   "environment": "*",
   "entrypoints": {
