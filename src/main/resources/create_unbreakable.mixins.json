@@ -4,9 +4,9 @@
   "package": "net.anvian.create_unbreakable.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-  ],
-  "client": [
-    "MinecraftMixin"
+    "AnvilMixin",
+    "DigDurabilityEnchantmentMixin",
+    "MendingMixin"
   ],
   "injectors": {
     "defaultRequire": 1
