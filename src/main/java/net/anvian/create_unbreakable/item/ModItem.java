@@ -11,7 +11,7 @@ public class ModItem {
 		CreateUnbreakableToolsMod.REGISTRATE.creativeModeTab(() ->CreateUnbreakableToolsMod.TAB);
 	}
 
-	public static final ItemEntry<Item> UNBREAKABLE_GEM = CreateUnbreakableToolsMod.REGISTRATE.item("unbreakable_gem", Item::new)
+	public static final ItemEntry<Item> UNBREAKABLE_MODIFIER = CreateUnbreakableToolsMod.REGISTRATE.item("unbreakable_modifier", Item::new)
 			.properties(p -> p.rarity(Rarity.RARE))
 			.properties(p -> p.stacksTo(1))
 			.register();
