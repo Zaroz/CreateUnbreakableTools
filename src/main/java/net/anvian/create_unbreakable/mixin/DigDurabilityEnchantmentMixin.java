@@ -1,6 +1,9 @@
 package net.anvian.create_unbreakable.mixin;
 
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ItemStack;
@@ -14,8 +17,8 @@ public class DigDurabilityEnchantmentMixin extends Enchantment {
 		super(rarity, category, applicableSlots);
 	}
 
-	@Override
-	public boolean canEnchant(ItemStack stack) {
-		return stack.getTag() !=null && !stack.getTag().getBoolean("Unbreakable");
+	@Inject(method = "canEnchant", at = @At(value = "HEAD"), cancellable = true)
+	private void dontAcceptUnbreakableItems(ItemStack stack, CallbackInfoReturnable<Boolean> cir) {
+		cir.setReturnValue(stack.getTag() != null && !stack.getTag().getBoolean("Unbreakable"));
 	}
 }
