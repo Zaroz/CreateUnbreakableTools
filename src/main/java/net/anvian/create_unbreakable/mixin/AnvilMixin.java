@@ -1,5 +1,7 @@
 package net.anvian.create_unbreakable.mixin;
 
+import java.util.Map;
+
 import org.jetbrains.annotations.Nullable;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
@@ -17,6 +19,7 @@ import net.minecraft.world.inventory.DataSlot;
 import net.minecraft.world.inventory.ItemCombinerMenu;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.item.enchantment.Enchantments;
 
@@ -33,7 +36,7 @@ abstract class AnvilMixin extends ItemCombinerMenu {
 	@Inject(method = "createResult", at = @At("HEAD"), cancellable = true)
 	private void inject(CallbackInfo info){
 		ItemStack itemStack1 = this.inputSlots.getItem(0).copy();
-		ItemStack itemStack2 = this.inputSlots.getItem(1).copy();
+		ItemStack itemStack2 = this.inputSlots.getItem(1);
 		if (itemStack1.isDamageableItem() && itemStack2.is(ModItem.UNBREAKABLE_MODIFIER.get())){
 			int unbreakingLevel = EnchantmentHelper.getItemEnchantmentLevel(Enchantments.UNBREAKING, itemStack1);
 			int mendingLevel = EnchantmentHelper.getItemEnchantmentLevel(Enchantments.MENDING, itemStack1);
@@ -49,6 +52,17 @@ abstract class AnvilMixin extends ItemCombinerMenu {
 				broadcastChanges();
 				info.cancel();
 			}
+		}
+
+		Map<Enchantment, Integer> enchantment = EnchantmentHelper.getEnchantments(itemStack2);
+		boolean mending = enchantment.containsKey(Enchantments.MENDING);
+		boolean unbreaking = enchantment.containsKey(Enchantments.UNBREAKING);
+		if (itemStack1.hasTag() && itemStack1.getTag().getBoolean("Unbreakable") && (mending || unbreaking)){
+			this.resultSlots.setItem(0, ItemStack.EMPTY);
+			this.cost.set(0);
+
+			broadcastChanges();
+			info.cancel();
 		}
 	}
 }
