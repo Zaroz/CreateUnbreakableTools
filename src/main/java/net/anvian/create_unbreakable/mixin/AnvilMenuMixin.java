@@ -24,12 +24,12 @@ import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.item.enchantment.Enchantments;
 
 @Mixin(AnvilMenu.class)
-abstract class AnvilMixin extends ItemCombinerMenu {
+abstract class AnvilMenuMixin extends ItemCombinerMenu {
 	@Shadow
 	@Final
 	private DataSlot cost;
 
-	public AnvilMixin(@Nullable MenuType<?> type, int containerId, Inventory playerInventory, ContainerLevelAccess access) {
+	public AnvilMenuMixin(@Nullable MenuType<?> type, int containerId, Inventory playerInventory, ContainerLevelAccess access) {
 		super(type, containerId, playerInventory, access);
     }
 

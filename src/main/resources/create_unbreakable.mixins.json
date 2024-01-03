@@ -6,7 +6,7 @@
   "mixins": [
     "AnvilMixin",
     "DigDurabilityEnchantmentMixin",
-    "MendingMixin"
+    "MendingEnchantmentMixin"
   ],
   "injectors": {
     "defaultRequire": 1

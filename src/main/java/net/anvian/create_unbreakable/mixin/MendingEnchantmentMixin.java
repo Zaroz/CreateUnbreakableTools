@@ -9,8 +9,8 @@ import net.minecraft.world.item.enchantment.MendingEnchantment;
 import org.spongepowered.asm.mixin.Mixin;
 
 @Mixin(MendingEnchantment.class)
-public class MendingMixin extends Enchantment {
-	protected MendingMixin(Rarity rarity, EnchantmentCategory category, EquipmentSlot[] applicableSlots) {
+public class MendingEnchantmentMixin extends Enchantment {
+	protected MendingEnchantmentMixin(Rarity rarity, EnchantmentCategory category, EquipmentSlot[] applicableSlots) {
 		super(rarity, category, applicableSlots);
 	}
 
