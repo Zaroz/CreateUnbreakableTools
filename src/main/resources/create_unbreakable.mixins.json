@@ -4,7 +4,7 @@
   "package": "net.anvian.create_unbreakable.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "AnvilMixin",
+    "AnvilMenuMixin",
     "DigDurabilityEnchantmentMixin",
     "MendingEnchantmentMixin"
   ],
