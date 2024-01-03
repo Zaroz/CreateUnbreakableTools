@@ -29,7 +29,7 @@ abstract class AnvilMixin extends ItemCombinerMenu {
 	@Final
 	private DataSlot cost;
 
-	public AnvilMixin(@Nullable MenuType<?> type, int containerId, Inventory playerInventory, ContainerLevelAccess access, DataSlot levelCost) {
+	public AnvilMixin(@Nullable MenuType<?> type, int containerId, Inventory playerInventory, ContainerLevelAccess access) {
 		super(type, containerId, playerInventory, access);
     }
 
