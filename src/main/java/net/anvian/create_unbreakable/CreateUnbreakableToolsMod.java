@@ -1,5 +1,7 @@
 package net.anvian.create_unbreakable;
 
+import net.anvian.create_unbreakable.block.ModBlock;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,6 +26,7 @@ public class CreateUnbreakableToolsMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItem.register();
+		ModBlock.register();
 		REGISTRATE.register();
 
 		LOGGER.info("Create addon mod [{}] is loading alongside Create [{}]!", NAME, Create.VERSION);
