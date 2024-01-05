@@ -37,7 +37,7 @@ abstract class AnvilMenuMixin extends ItemCombinerMenu {
 	private void inject(CallbackInfo info){
 		ItemStack itemStack1 = this.inputSlots.getItem(0).copy();
 		ItemStack itemStack2 = this.inputSlots.getItem(1);
-		if (itemStack1.isDamageableItem() && itemStack2.is(ModItem.UNBREAKABLE_MODIFIER.get())){
+		if (itemStack1.isDamageableItem() && itemStack2.is(ModItem.ETERNAL_MODIFIER.get())){
 			int unbreakingLevel = EnchantmentHelper.getItemEnchantmentLevel(Enchantments.UNBREAKING, itemStack1);
 			int mendingLevel = EnchantmentHelper.getItemEnchantmentLevel(Enchantments.MENDING, itemStack1);
 			if (unbreakingLevel == 0 && mendingLevel == 0){
