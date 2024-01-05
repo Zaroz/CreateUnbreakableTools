@@ -15,5 +15,13 @@ public class ModItem {
 			.properties(p -> p.rarity(Rarity.RARE).stacksTo(1))
 			.register();
 
+	public static final ItemEntry<Item> ETERNAL_PIECE = CreateUnbreakableToolsMod.REGISTRATE.item("eternal_piece", Item::new)
+			.properties(p -> p.rarity(Rarity.RARE).stacksTo(1))
+			.register();
+
+	public static final ItemEntry<Item> ETERNAL_ORB = CreateUnbreakableToolsMod.REGISTRATE.item("eternal_orb", Item::new)
+			.properties(p -> p.rarity(Rarity.RARE).stacksTo(1))
+			.register();
+
 	public static void register(){}
 }
