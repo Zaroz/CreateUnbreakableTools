@@ -5,6 +5,7 @@ import com.tterrag.registrate.util.entry.BlockEntry;
 import net.anvian.create_unbreakable.CreateUnbreakableToolsMod;
 import net.minecraft.world.level.block.Block;
 
+@SuppressWarnings("unused")
 public class ModBlock {
 	static {
 		CreateUnbreakableToolsMod.REGISTRATE.creativeModeTab(() -> CreateUnbreakableToolsMod.TAB);
