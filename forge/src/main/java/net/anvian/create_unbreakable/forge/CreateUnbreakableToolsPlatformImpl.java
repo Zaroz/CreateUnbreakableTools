@@ -1,6 +1,6 @@
 package net.anvian.create_unbreakable.forge;
 
-public class ExampleExpectPlatformImpl {
+public class CreateUnbreakableToolsPlatformImpl {
 	public static String platformName() {
 		return "Forge";
 	}

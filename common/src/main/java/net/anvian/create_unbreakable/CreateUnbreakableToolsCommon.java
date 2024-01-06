@@ -1,7 +1,6 @@
 package net.anvian.create_unbreakable;
 
 import com.simibubi.create.Create;
-import com.simibubi.create.foundation.data.CreateRegistrate;
 import io.github.fabricators_of_create.porting_lib.util.ItemGroupUtil;
 import net.anvian.create_unbreakable.block.ModBlock;
 import net.anvian.create_unbreakable.item.ModItem;
@@ -21,7 +20,7 @@ public class CreateUnbreakableToolsCommon {
         ModItem.register();
         ModBlock.register();
 
-        LOGGER.info("{} initializing! Create version: {} on| platform: {}", NAME, Create.VERSION, ExampleExpectPlatform.platformName());
+        LOGGER.info("{} initializing! Create version: {} on| platform: {}", NAME, Create.VERSION, CreateUnbreakableToolsPlatform.platformName());
     }
 
     public static ResourceLocation id(String path) {
