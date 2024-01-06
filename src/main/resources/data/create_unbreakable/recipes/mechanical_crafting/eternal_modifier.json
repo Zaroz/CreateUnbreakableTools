@@ -1,9 +1,9 @@
 {
   "type": "create:mechanical_crafting",
-  "acceptMirrored": false,
+  "acceptMirrored": true,
   "key": {
     "E": {
-      "item": "minecraft:emerald"
+      "item": "create_unbreakable:eternal_piece"
     },
     "B": {
       "item": "create:brass_sheet"
@@ -12,7 +12,7 @@
       "item": "create:precision_mechanism"
     },
     "S": {
-      "item": "minecraft:stick"
+      "item": "create_unbreakable:eternal_orb"
     }
   },
   "pattern": [
@@ -23,6 +23,6 @@
     " EBE "
   ],
   "result": {
-    "item": "create_unbreakable:unbreakable_gem"
+    "item": "create_unbreakable:eternal_modifier"
   }
 }
