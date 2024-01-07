@@ -1,4 +1,4 @@
-package net.anvian.create_unbreakable;
+package net.create_unbreakable;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 
@@ -16,6 +16,8 @@ public class CreateUnbreakableToolsPlatform {
      * <p>
      * <a href="https://plugins.jetbrains.com/plugin/16210-architectury">You should also get the IntelliJ plugin to help with @ExpectPlatform.</a>
      */
+    @ExpectPlatform public static int getModGroupId() { throw new AssertionError(); }
+
     @ExpectPlatform
     public static String platformName() {
         // Just throw an error, the content should get replaced at runtime.

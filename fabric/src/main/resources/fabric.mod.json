@@ -2,25 +2,27 @@
   "schemaVersion": 1,
   "id": "create_unbreakable",
   "version": "${version}",
-  "name": "Create Unbreakable Tools",
+  "name": "Create Unbreakable Tools Mod",
   "description": "",
   "authors": [
     "anvian"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/anviaan/CreateUnbreakableTools",
+    "issues": "https://github.com/anviaan/CreateUnbreakableTools/issues"
   },
   "license": "GPL-3.0",
   "icon": "assets/create_unbreakable/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.anvian.create_unbreakable.fabric.CreateUnbreakableToolsFabric"
+      "net.create_unbreakable.fabric.CreateUnbreakableToolsFabric"
     ]
   },
   "mixins": [
-    "create_unbreakable.mixins.json"
+    "create_unbreakable.mixins.json",
+    "create_unbreakable-common.mixins.json"
   ],
   "depends": {
     "minecraft": "${minecraft_version}",

@@ -1,12 +1,12 @@
 modLoader = "javafml"
 loaderVersion = "[${forge_version},)"
-#issueTrackerURL = ""
+issueTrackerURL = "https://github.com/anviaan/CreateUnbreakableTools/issues"
 license = "GPL-3.0"
 
 [[mods]]
 modId = "create_unbreakable"
 version = "${version}"
-displayName = "Create Unbreakable Tools"
+displayName = "Create Unbreakable Tools Mod"
 authors = "anvian"
 description = ""
 logoFile = "icon.png"

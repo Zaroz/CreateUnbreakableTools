@@ -1,14 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.anvian.create_unbreakable.mixin",
+  "package": "net.create_unbreakable.mixin",
   "compatibilityLevel": "JAVA_17",
-  "client": [],
+  "client": [
+    "MixinTitleScreen"
+  ],
   "mixins": [
-    "AnvilMenuMixin",
-    "DigDurabilityEnchantmentMixin",
-    "MendingEnchantmentMixin",
-    "SuperGlueSelectionHelperMixin"
   ],
   "injectors": {
     "defaultRequire": 1

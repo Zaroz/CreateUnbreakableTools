@@ -12,4 +12,4 @@ include("common")
 include("fabric")
 include("forge")
 
-rootProject.name = "CreateUnbreakableToolsMultiloader"
+rootProject.name = "Create_Unbreakable_Tools"

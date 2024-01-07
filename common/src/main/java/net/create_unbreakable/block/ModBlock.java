@@ -1,15 +1,16 @@
-package net.anvian.create_unbreakable.block;
+package net.create_unbreakable.block;
 
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.tterrag.registrate.util.entry.BlockEntry;
-import net.anvian.create_unbreakable.CreateUnbreakableToolsCommon;
+import net.create_unbreakable.CreateUnbreakableToolsMod;
+import net.create_unbreakable.item.tab.ModGroup;
 import net.minecraft.world.level.block.Block;
 
 public class ModBlock {
-    public static final CreateRegistrate REGISTRATE = CreateRegistrate.create(CreateUnbreakableToolsCommon.ID);
+    public static final CreateRegistrate REGISTRATE = CreateRegistrate.create(CreateUnbreakableToolsMod.MOD_ID);
 
     static {
-        REGISTRATE.creativeModeTab(() -> CreateUnbreakableToolsCommon.TAB);
+        REGISTRATE.creativeModeTab(() -> ModGroup.GROUP);
     }
 
     public static final BlockEntry<Block> ETERNAL_PIECE_BLOCK = REGISTRATE.block("eternal_piece_block", Block::new)
@@ -22,7 +23,7 @@ public class ModBlock {
             .simpleItem()
             .register();
 
-    public static void register(){
-
+    public static void init() {
+        CreateUnbreakableToolsMod.LOGGER.info("Registering blocks for " + CreateUnbreakableToolsMod.NAME);
     }
 }
