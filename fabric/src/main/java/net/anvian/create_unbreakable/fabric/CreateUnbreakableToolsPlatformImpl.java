@@ -1,4 +1,4 @@
-package net.create_unbreakable.fabric;
+package net.anvian.create_unbreakable.fabric;
 
 import io.github.fabricators_of_create.porting_lib.util.ItemGroupUtil;
 import net.fabricmc.loader.api.FabricLoader;

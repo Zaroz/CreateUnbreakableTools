@@ -1,4 +1,4 @@
-package net.create_unbreakable.forge;
+package net.anvian.create_unbreakable.forge;
 
 public class CreateUnbreakableToolsPlatformImpl {
 	public static String platformName() {

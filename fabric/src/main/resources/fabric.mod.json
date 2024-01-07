@@ -17,7 +17,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.create_unbreakable.fabric.CreateUnbreakableToolsFabric"
+      "net.anvian.create_unbreakable.fabric.CreateUnbreakableToolsFabric"
     ]
   },
   "mixins": [

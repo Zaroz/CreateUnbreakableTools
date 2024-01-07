@@ -1,4 +1,4 @@
-package net.create_unbreakable;
+package net.anvian.create_unbreakable;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 

@@ -1,8 +1,8 @@
-package net.create_unbreakable.item.tab;
+package net.anvian.create_unbreakable.item.tab;
 
 import com.simibubi.create.foundation.data.CreateRegistrate;
-import net.create_unbreakable.CreateUnbreakableToolsMod;
-import net.create_unbreakable.CreateUnbreakableToolsPlatform;
+import net.anvian.create_unbreakable.CreateUnbreakableToolsMod;
+import net.anvian.create_unbreakable.CreateUnbreakableToolsPlatform;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;

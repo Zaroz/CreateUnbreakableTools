@@ -1,6 +1,6 @@
-package net.create_unbreakable.mixin;
+package net.anvian.create_unbreakable.mixin;
 
-import net.create_unbreakable.CreateUnbreakableToolsMod;
+import net.anvian.create_unbreakable.CreateUnbreakableToolsMod;
 import net.minecraft.client.gui.screens.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
