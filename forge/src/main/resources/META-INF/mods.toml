@@ -1,33 +1,31 @@
 modLoader = "javafml"
 loaderVersion = "[${forge_version},)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "GPL-3.0"
 
 [[mods]]
-modId = "examplemod"
+modId = "create_unbreakable"
 version = "${version}"
-displayName = "Example Mod"
-authors = "Me!"
-description = '''
-This is an example description! Tell everyone what your mod is about!
-'''
+displayName = "Create Unbreakable Tools"
+authors = "anvian"
+description = ""
 logoFile = "icon.png"
 
-[[dependencies.examplemod]]
+[[dependencies.create_unbreakable]]
 modId = "forge"
 mandatory = true
 versionRange = "[${forge_version},)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.create_unbreakable]]
 modId = "minecraft"
 mandatory = true
 versionRange = "${minecraft_version}"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.create_unbreakable]]
 modId="create"
 mandatory=true
 versionRange="${create_version}"

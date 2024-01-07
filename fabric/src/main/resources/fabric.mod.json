@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "create_unbreakable",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Create Unbreakable Tools",
+  "description": "",
   "authors": [
-    "Me!"
+    "anvian"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
-  "license": "Insert License Here",
-  "icon": "assets/examplemod/icon.png",
+  "license": "GPL-3.0",
+  "icon": "assets/create_unbreakable/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -20,7 +20,7 @@
     ]
   },
   "mixins": [
-    "create_unbreakable-common.mixins.json"
+    "create_unbreakable.mixins.json"
   ],
   "depends": {
     "minecraft": "${minecraft_version}",
