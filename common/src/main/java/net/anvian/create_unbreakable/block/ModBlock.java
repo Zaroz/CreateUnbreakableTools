@@ -6,7 +6,6 @@ import net.anvian.create_unbreakable.CreateUnbreakableToolsMod;
 import net.anvian.create_unbreakable.block.custom.EternalBlock;
 import net.anvian.create_unbreakable.item.ModItem;
 import net.anvian.create_unbreakable.item.tab.ModGroup;
-import net.minecraft.world.level.block.Block;
 
 public class ModBlock {
     public static final CreateRegistrate REGISTRATE = CreateRegistrate.create(CreateUnbreakableToolsMod.MOD_ID);
