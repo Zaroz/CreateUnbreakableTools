@@ -1,0 +1,8 @@
+{
+  "itemGroup.create_unbreakable": "Create unbreakable",
+  "item.create_unbreakable.eternal_modifiers": "Eternal modifiers",
+  "item.create_unbreakable.eternal_piece" : "Eternal piece",
+  "item.create_unbreakable.eternal_orb" : "Eternal orb",
+  "block.create_unbreakable.eternal_piece_block" : "Eternal piece block",
+  "block.create_unbreakable.eternal_orb_block" : "Eternal orb block"
+}
