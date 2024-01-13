@@ -1,7 +1,5 @@
 package net.anvian.create_unbreakable;
 
-import net.anvian.create_unbreakable.block.ModBlock;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,10 +8,10 @@ import com.simibubi.create.foundation.data.CreateRegistrate;
 
 import io.github.fabricators_of_create.porting_lib.util.EnvExecutor;
 import io.github.fabricators_of_create.porting_lib.util.ItemGroupUtil;
+import net.anvian.create_unbreakable.block.ModBlock;
 import net.anvian.create_unbreakable.item.ModItem;
 import net.anvian.create_unbreakable.item.tab.ModCreativeTab;
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 
 public class CreateUnbreakableToolsMod implements ModInitializer {
@@ -34,9 +32,5 @@ public class CreateUnbreakableToolsMod implements ModInitializer {
 				() -> () -> "{} is accessing Porting Lib from the client!",
 				() -> () -> "{} is accessing Porting Lib from the server!"
 		), NAME);
-	}
-
-	public static ResourceLocation id(String path) {
-		return new ResourceLocation(ID, path);
 	}
 }
