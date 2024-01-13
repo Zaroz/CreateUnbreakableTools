@@ -1,10 +1,10 @@
 package net.anvian.create_unbreakable.item.tab;
 
+import org.jetbrains.annotations.NotNull;
+
+import net.anvian.create_unbreakable.item.ModItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
-
-import org.jetbrains.annotations.NotNull;
 
 public class ModCreativeTab extends CreativeModeTab {
 	public ModCreativeTab(int id, String langId) {
@@ -13,6 +13,6 @@ public class ModCreativeTab extends CreativeModeTab {
 
 	@Override
 	public @NotNull ItemStack makeIcon() {
-		return new ItemStack(Items.DIAMOND);
+		return new ItemStack(ModItem.ETERNAL_MODIFIER.get());
 	}
 }
