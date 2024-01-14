@@ -3,12 +3,14 @@
   "id": "create_unbreakable",
   "version": "${version}",
   "name": "Create Unbreakable Tools",
-  "description": "",
+  "description": "This is an addon mod for Create in Fabric that provides the ability to make your tools unbreakable.",
   "authors": [
     "anvian"
   ],
   "contact": {
-    "sources": "https://github.com/anviaan/CreateUnbreakableTools"
+    "sources": "https://github.com/anviaan/CreateUnbreakableTools",
+    "issues": "https://github.com/anviaan/CreateUnbreakableTools/issues",
+    "homepage": "https://modrinth.com/mod/create_unbreakable"
   },
   "license": "GPL-3.0",
   "icon": "assets/create_unbreakable/icon.png",
