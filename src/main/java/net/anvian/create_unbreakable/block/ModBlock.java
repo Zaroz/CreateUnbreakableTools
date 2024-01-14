@@ -3,8 +3,8 @@ package net.anvian.create_unbreakable.block;
 import com.tterrag.registrate.util.entry.BlockEntry;
 
 import net.anvian.create_unbreakable.CreateUnbreakableToolsMod;
-import net.anvian.create_unbreakable.block.custom.EternalBlock;
-import net.anvian.create_unbreakable.item.ModItem;
+import net.anvian.create_unbreakable.block.custom.OrbBlock;
+import net.anvian.create_unbreakable.block.custom.PieceBlock;
 
 @SuppressWarnings("unused")
 public class ModBlock {
@@ -12,15 +12,13 @@ public class ModBlock {
 		CreateUnbreakableToolsMod.REGISTRATE.creativeModeTab(() -> CreateUnbreakableToolsMod.TAB);
 	}
 
-	public static final BlockEntry<EternalBlock> ETERNAL_PIECE_BLOCK = CreateUnbreakableToolsMod.REGISTRATE.block("eternal_piece_block",
-					(p) -> new EternalBlock(p, ModItem.ETERNAL_PIECE.asStack()))
-			.properties(p -> p.strength(5.0F, 6.0F))
+	public static final BlockEntry<PieceBlock> ETERNAL_PIECE_BLOCK = CreateUnbreakableToolsMod.REGISTRATE.block(
+			"eternal_piece_block", PieceBlock::new)
 			.simpleItem()
 			.register();
 
-	public static final BlockEntry<EternalBlock> ETERNAL_ORB_BLOCK = CreateUnbreakableToolsMod.REGISTRATE.block("eternal_orb_block",
-					(p) -> new EternalBlock(p, ModItem.ETERNAL_ORB.asStack()))
-			.properties(p -> p.strength(5.0F, 6.0F))
+	public static final BlockEntry<OrbBlock> ETERNAL_ORB_BLOCK = CreateUnbreakableToolsMod.REGISTRATE.block(
+			"eternal_orb_block", OrbBlock::new)
 			.simpleItem()
 			.register();
 

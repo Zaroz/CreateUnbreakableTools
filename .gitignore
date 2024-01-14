@@ -31,3 +31,4 @@ bin/
 # fabric
 
 run/
+!run/config/fabric_loader_dependencies.json
