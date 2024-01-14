@@ -70,7 +70,8 @@
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
       "minecraft:ore_emerald",
-	  "minecraft:coalgen_ore_coal"
+      "minecraft:eternal_orb_gen",
+      "minecraft:eternal_piece_gen"
     ],
     [
       "minecraft:ore_infested"
