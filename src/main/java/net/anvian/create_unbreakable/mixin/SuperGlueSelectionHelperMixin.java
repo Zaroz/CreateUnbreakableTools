@@ -5,7 +5,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-import com.simibubi.create.content.contraptions.components.structureMovement.glue.SuperGlueSelectionHelper;
+import com.simibubi.create.content.contraptions.glue.SuperGlueSelectionHelper;
 
 import net.minecraft.core.NonNullList;
 import net.minecraft.world.entity.player.Player;
