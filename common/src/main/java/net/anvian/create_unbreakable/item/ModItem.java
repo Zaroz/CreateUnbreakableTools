@@ -14,7 +14,7 @@ public class ModItem {
     }
 
     public static final ItemEntry<EternalItem> ETERNAL_MODIFIER = REGISTRATE.item("eternal_modifier",
-                    (p -> new EternalItem(p, 1))).register();
+            (p -> new EternalItem(p, 1))).register();
 
     public static final ItemEntry<EternalItem> ETERNAL_PIECE = REGISTRATE.item("eternal_piece",
             (p -> new EternalItem(p, 64))).register();
