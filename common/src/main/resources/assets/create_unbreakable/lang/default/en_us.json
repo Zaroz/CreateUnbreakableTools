@@ -1,8 +1,8 @@
 {
   "itemGroup.create_unbreakable": "Create unbreakable",
-  "item.create_unbreakable.eternal_modifier": "Eternal modifier",
-  "item.create_unbreakable.eternal_piece" : "Eternal piece",
-  "item.create_unbreakable.eternal_orb" : "Eternal orb",
-  "block.create_unbreakable.eternal_piece_block" : "Eternal piece block",
-  "block.create_unbreakable.eternal_orb_block" : "Eternal orb block"
+  "item.create_unbreakable.irromolding": "Irromoldinf",
+  "item.create_unbreakable.philolite" : "Philolite",
+  "item.create_unbreakable.luminarchy" : "Luminarchy",
+  "block.create_unbreakable.philolite_block" : "Philolite block",
+  "block.create_unbreakable.luminarchy_block" : "Luminarchy block"
 }

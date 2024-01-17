@@ -66,8 +66,8 @@
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
-      "minecraft:eternal_orb_gen",
-      "minecraft:eternal_piece_gen"
+      "minecraft:luminarchy_block_gen",
+      "minecraft:philolite_block_gen"
     ],
     [
       "minecraft:sculk_vein",

@@ -3,7 +3,7 @@
   "acceptMirrored": true,
   "key": {
     "E": {
-      "item": "create_unbreakable:eternal_piece"
+      "item": "create_unbreakable:philolite"
     },
     "B": {
       "item": "create:brass_sheet"
@@ -12,7 +12,7 @@
       "item": "create:precision_mechanism"
     },
     "S": {
-      "item": "create_unbreakable:eternal_orb"
+      "item": "create_unbreakable:luminarchy"
     }
   },
   "pattern": [
@@ -23,6 +23,6 @@
     " EBE "
   ],
   "result": {
-    "item": "create_unbreakable:eternal_modifier"
+    "item": "create_unbreakable:irromolding"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "create_unbreakable:item/eternal_piece"
+    "layer0": "create_unbreakable:item/luminarchy"
   }
 }

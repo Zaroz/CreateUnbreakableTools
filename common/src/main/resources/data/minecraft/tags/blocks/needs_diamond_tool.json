@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "create_unbreakable:eternal_piece_block",
-    "create_unbreakable:eternal_orb_block"
+    "create_unbreakable:philolite_block",
+    "create_unbreakable:luminarchy_block"
   ]
 }

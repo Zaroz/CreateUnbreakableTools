@@ -14,7 +14,7 @@ public class ModGroup {
     public static final CreativeModeTab GROUP = new CreativeModeTab(CreateUnbreakableToolsPlatform.getModGroupId(), CreateUnbreakableToolsMod.MOD_ID) {
         @Override
         public @NotNull ItemStack makeIcon() {
-            return ModItem.ETERNAL_MODIFIER.asStack();
+            return ModItem.IRROMOLDING.asStack();
         }
 
     };

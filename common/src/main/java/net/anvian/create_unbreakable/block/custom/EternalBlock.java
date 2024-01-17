@@ -5,7 +5,7 @@ import net.minecraft.world.level.block.Block;
 public class EternalBlock extends Block {
     public EternalBlock(Properties properties) {
         super(properties
-                .strength(5.0F, 6.0F)
+                .strength(25.0F, 1200.0F)
         );
     }
 }

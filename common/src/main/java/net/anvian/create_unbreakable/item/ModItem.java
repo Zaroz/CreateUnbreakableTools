@@ -13,13 +13,13 @@ public class ModItem {
         REGISTRATE.creativeModeTab(() -> ModGroup.GROUP);
     }
 
-    public static final ItemEntry<EternalItem> ETERNAL_MODIFIER = REGISTRATE.item("eternal_modifier",
+    public static final ItemEntry<EternalItem> IRROMOLDING = REGISTRATE.item("irromolding",
             (p -> new EternalItem(p, 1))).register();
 
-    public static final ItemEntry<EternalItem> ETERNAL_PIECE = REGISTRATE.item("eternal_piece",
+    public static final ItemEntry<EternalItem> PHILOLITE = REGISTRATE.item("philolite",
             (p -> new EternalItem(p, 64))).register();
 
-    public static final ItemEntry<EternalItem> ETERNAL_ORB = REGISTRATE.item("eternal_orb",
+    public static final ItemEntry<EternalItem> LUMINARCHY = REGISTRATE.item("luminarchy",
             (p -> new EternalItem(p, 64))).register();
 
     public static void init() {

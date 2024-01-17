@@ -64,8 +64,8 @@
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
       "minecraft:ore_emerald",
-      "minecraft:eternal_orb_gen",
-      "minecraft:eternal_piece_gen"
+      "minecraft:luminarchy_block_gen",
+      "minecraft:philolite_block_gen"
     ],
     [
       "minecraft:ore_infested"
