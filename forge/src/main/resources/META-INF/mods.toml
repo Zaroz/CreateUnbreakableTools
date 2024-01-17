@@ -8,6 +8,7 @@ license = "GPL-3.0"
 modId = "create_unbreakable"
 version = "${version}"
 displayName = "Create Unbreakable Tools Mod"
+credits = ["PinhaColada2222", "awadito2"]
 authors = "anvian"
 description = "This is an addon mod for Create in Fabric that provides the ability to make your tools unbreakable."
 logoFile = "icon.png"
@@ -30,6 +31,6 @@ side = "BOTH"
 [[dependencies.create_unbreakable]]
 modId="create"
 mandatory=true
-versionRange="${create_version}"
+versionRange="[${create_version},)"
 ordering="NONE"
 side="BOTH"
