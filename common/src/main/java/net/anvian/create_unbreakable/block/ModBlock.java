@@ -5,7 +5,6 @@ import com.tterrag.registrate.util.entry.BlockEntry;
 import net.anvian.create_unbreakable.CreateUnbreakableToolsMod;
 import net.anvian.create_unbreakable.block.custom.LuminarchyBlock;
 import net.anvian.create_unbreakable.block.custom.PhiloliteBlock;
-import net.anvian.create_unbreakable.item.tab.ModGroup;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.state.BlockState;
@@ -13,10 +12,6 @@ import net.minecraft.world.level.block.state.BlockState;
 @SuppressWarnings("unused")
 public class ModBlock {
     public static final CreateRegistrate REGISTRATE = CreateRegistrate.create(CreateUnbreakableToolsMod.MOD_ID);
-
-    static {
-        REGISTRATE.creativeModeTab(() -> ModGroup.GROUP);
-    }
 
     public static final BlockEntry<PhiloliteBlock> PHILOLITE_BLOCK = REGISTRATE.block(
                     "philolite_block", PhiloliteBlock::new)

@@ -10,7 +10,7 @@ version = "${version}"
 displayName = "Create Unbreakable Tools Mod"
 credits = ["PinhaColada2222", "awadito2"]
 authors = "anvian"
-description = "This is an addon mod for Create in Fabric that provides the ability to make your tools unbreakable."
+description = "This is an addon mod for Create that provides the ability to make your tools unbreakable."
 logoFile = "icon.png"
 displayURL= "https://github.com/anviaan/CreateUnbreakableTools"
 

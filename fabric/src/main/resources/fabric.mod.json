@@ -3,7 +3,7 @@
   "id": "create_unbreakable",
   "version": "${version}",
   "name": "Create Unbreakable Tools Mod",
-  "description": "This is an addon mod for Create in Fabric that provides the ability to make your tools unbreakable.",
+  "description": "This is an addon mod for Create that provides the ability to make your tools unbreakable.",
   "authors": [
     "anvian"
   ],
