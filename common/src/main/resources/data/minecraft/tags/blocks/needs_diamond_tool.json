@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "create_unbreakable:philolite_block",
+    "create_unbreakable:luminarchy_block"
+  ]
+}
