@@ -18,7 +18,7 @@ public class ModBlock {
             .simpleItem()
             .register();
 
-    public static final BlockEntry<LuminarchyBlock> LUMINARCHY = REGISTRATE.block(
+    public static final BlockEntry<LuminarchyBlock> LUMINARCHY_BLOCK = REGISTRATE.block(
                     "luminarchy_block", LuminarchyBlock::new)
             .properties(p -> p.lightLevel((state) -> 3).hasPostProcess(ModBlock::always).emissiveRendering(ModBlock::always))
             .simpleItem()
